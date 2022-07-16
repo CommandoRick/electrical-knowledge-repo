@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.13)  16 JUL 2022 18:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.13)  16 JUL 2022 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,10 +665,23 @@ File: pppdftex.def 2022/05/22 v0.5v Pdfpages driver for pdfTeX (AM)
 (c:/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
+(c:/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip67
+\f@nch@O@elh=\skip68
+\f@nch@O@erh=\skip69
+\f@nch@O@olh=\skip70
+\f@nch@O@orh=\skip71
+\f@nch@O@elf=\skip72
+\f@nch@O@erf=\skip73
+\f@nch@O@olf=\skip74
+\f@nch@O@orf=\skip75
+)
 (c:/texlive/2022/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count324
-\algocf@hangindent=\skip67
+\algocf@hangindent=\skip76
 
 (c:/texlive/2022/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
@@ -680,57 +693,43 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (c:/texlive/2022/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\skiptotal=\skip68
-\skiplinenumber=\skip69
-\skiprule=\skip70
-\skiphlne=\skip71
-\skiptext=\skip72
-\skiplength=\skip73
-\algomargin=\skip74
-\skipalgocfslide=\skip75
+\skiptotal=\skip77
+\skiplinenumber=\skip78
+\skiprule=\skip79
+\skiphlne=\skip80
+\skiptext=\skip81
+\skiplength=\skip82
+\algomargin=\skip83
+\skipalgocfslide=\skip84
 \algowidth=\dimen299
 \inoutsize=\dimen300
 \inoutindent=\dimen301
 \interspacetitleruled=\dimen302
 \interspacealgoruled=\dimen303
 \interspacetitleboxruled=\dimen304
-\algocf@ruledwidth=\skip76
+\algocf@ruledwidth=\skip85
 \algocf@inoutbox=\box112
 \algocf@inputbox=\box113
-\AlCapSkip=\skip77
-\AlCapHSkip=\skip78
-\algoskipindent=\skip79
+\AlCapSkip=\skip86
+\AlCapHSkip=\skip87
+\algoskipindent=\skip88
 \algocf@nlbox=\box114
 \algocf@hangingbox=\box115
 \algocf@untilbox=\box116
-\algocf@skipuntil=\skip80
+\algocf@skipuntil=\skip89
 \algocf@capbox=\box117
-\algocf@lcaptionbox=\skip81
-\algoheightruledefault=\skip82
-\algoheightrule=\skip83
-\algotitleheightruledefault=\skip84
-\algotitleheightrule=\skip85
+\algocf@lcaptionbox=\skip90
+\algoheightruledefault=\skip91
+\algoheightrule=\skip92
+\algotitleheightruledefault=\skip93
+\algotitleheightrule=\skip94
 \c@algocfline=\count326
 \c@algocfproc=\count327
 \c@algocf=\count328
 \algocf@algoframe=\box118
 \algocf@algobox=\box119
-)
-
-! LaTeX Error: Command \comment already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 \newcommand{\comment}[1]{}
-                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+))
+(c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count329
 \l__pdf_internal_box=\box120
@@ -805,13 +804,13 @@ Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 (./chapters/00_titlePage.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -828,53 +827,34 @@ _tableOfContents.tex
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- (./main.lot
-
-LaTeX Warning: Citation `RefI3' on page 2 undefined on input line 1.
-
-
-LaTeX Warning: Citation `RefI4' on page 2 undefined on input line 1.
-
-
-LaTeX Warning: Citation `RefI5' on page 2 undefined on input line 1.
-
-
-LaTeX Warning: Citation `RefI6' on page 2 undefined on input line 1.
-
-
-LaTeX Warning: Citation `RefI7' on page 2 undefined on input line 1.
-
-)
+ (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
  [2
 
-]) (./chapters/02_UqSubjects.tex Excluding 'comment' comment.) [3
+]) (./chapters/02_UqSubjects.tex
+Excluding 'comment' comment.) [3
 
-]
-(./main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 16976 strings out of 478024
- 331789 string characters out of 5842701
- 608619 words of memory out of 5000000
- 35072 multiletter control sequences out of 15000+600000
- 473979 words of font info for 46 fonts, out of 8000000 for 9000
+ 17148 strings out of 478024
+ 334208 string characters out of 5842701
+ 611582 words of memory out of 5000000
+ 35239 multiletter control sequences out of 15000+600000
+ 473730 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,10n,92p,560b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (4 pages, 74859 bytes).
+ 89i,11n,92p,560b,371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsl10.pfb>
+Output written on main.pdf (4 pages, 73689 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
