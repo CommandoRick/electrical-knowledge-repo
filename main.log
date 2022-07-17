@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.13)  16 JUL 2022 18:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.13)  17 JUL 2022 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -728,11 +728,29 @@ Package: relsize 2013/03/29 ver 4.1
 \c@algocf=\count328
 \algocf@algoframe=\box118
 \algocf@algobox=\box119
+)
+(c:/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+
+(c:/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count329
+\l_MT_multwidth_dim=\dimen305
+\origjot=\skip95
+\l_MT_shortvdotswithinadjustabove_dim=\dimen306
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen307
+\l_MT_above_intertext_sep=\dimen308
+\l_MT_below_intertext_sep=\dimen309
+\l_MT_above_shortintertext_sep=\dimen310
+\l_MT_below_shortintertext_sep=\dimen311
+\xmathstrut@box=\box120
+\xmathstrut@dim=\dimen312
 ))
 (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count329
-\l__pdf_internal_box=\box120
+\l__color_backend_stack_int=\count330
+\l__pdf_internal_box=\box121
 )
 (./main.aux)
 \openout1 = `main.aux'.
@@ -788,16 +806,16 @@ LaTeX Font Info:    ... okay on input line 9.
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
-\scratchdimen=\dimen305
-\scratchbox=\box121
-\nofMPsegments=\count331
-\nofMParguments=\count332
+\scratchcounter=\count331
+\scratchdimen=\dimen313
+\scratchbox=\box122
+\nofMPsegments=\count332
+\nofMParguments=\count333
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count333
-\MPscratchDim=\dimen306
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
+\MPscratchCnt=\count334
+\MPscratchDim=\dimen314
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
 \everyMPtoPDFconversion=\toks42
 ) (c:/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -834,27 +852,68 @@ _tableOfContents.tex
  [2
 
 ]) (./chapters/02_UqSubjects.tex
-Excluding 'comment' comment.) [3
+[3
 
-] (./main.aux) ) 
+] [4
+
+] [5
+
+] [6
+
+] [7
+
+] [8
+
+] [9
+
+] [10
+
+] [11
+
+] [12
+
+] [13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
+
+]
+[19
+
+] [20
+
+] [21
+
+] Excluding 'comment' comment.) (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 17148 strings out of 478024
- 334208 string characters out of 5842701
- 611582 words of memory out of 5000000
- 35239 multiletter control sequences out of 15000+600000
- 473730 words of font info for 45 fonts, out of 8000000 for 9000
+ 17703 strings out of 478024
+ 344684 string characters out of 5842701
+ 627442 words of memory out of 5000000
+ 35786 multiletter control sequences out of 15000+600000
+ 474673 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,11n,92p,560b,371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c
-:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texliv
-e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on main.pdf (4 pages, 73689 bytes).
+ 89i,11n,92p,560b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts
+/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (22 pages, 136266 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
