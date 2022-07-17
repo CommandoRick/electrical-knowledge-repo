@@ -69,6 +69,38 @@ Where:
   \item d = plate separation distance ($m$)
 \end{itemize}
 
+\begin{align} \label{eq_ELEC2004_charge}
+  Q &= CV
+\end{align}
+Where:
+\begin{itemize}
+  \item Q = stored charge
+  \item C = capacitance ($F$)
+  \item V = applied voltage ($V$)
+\end{itemize}
+
+In DC, a capacitor is effectively an open circuit; when a steady voltage is applied. \textcolor{red}{When the voltage changes, the stored charge changes also as per equation \eqref{eq_ELEC2004_charge} by taking the derivative.} Thus,
+\begin{align}
+  i(t) &= \frac{dq(t)}{dt} = C \frac{dv(t)}{dt}
+\end{align}
+
+Energy storage in capacitors is calculated by integrating the instantaneous power $P(t)$. Thus,
+\begin{align}
+  P(t) &= v(t)i(t) = Cv(t)\frac{dv(t)}{dt}
+\end{align}
+Integrating the instanteous power:
+\begin{align}
+  W(t) = \frac{1}{2}Cv^2(t)
+\end{align}
+
+Capacitors can be combined in series and in parallel to yield a single equivalent capacitance. Note: the behaviour of equivalent capacitance is the opposite of resistors. Series:
+\begin{align}
+  C_{EQ} &= \frac{1}{\frac{1}{C_1} + \frac{1}{C_1} + \frac{1}{C_1} ...}
+\end{align}
+Parallel:
+\begin{align}
+  C_{EQ} &= C_1 + C_2 + C_3 ...
+\end{align}
 
 \clearpage
 
