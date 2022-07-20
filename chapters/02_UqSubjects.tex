@@ -20,7 +20,8 @@ In terms of text colour and highlights, the format will be as follows where poss
 \begin{enumerate}
   \item Black = normal text
   \item \textcolor{red}{Red = Important}
-  \item \textcolor{blue}{Blue = Equation \& Weblinks}
+  \item \textcolor{blue}{Blue = References}
+  \item \textcolor{green}{Green = Key Takeaways}
 \end{enumerate}
 
 % TOPIC: CODING
@@ -56,7 +57,7 @@ In terms of text colour and highlights, the format will be as follows where poss
 \subsection{ELEC2004 - Electronics \& Circuits Pt.2}
 \subsubsection{LEC01: Capacitors and Inductors, RL and RC Circuits}
 \textsc{\large Capacitors}\\
-Capacitors and inductors are linear circuit elements that can store electrical energy. The ideal capacitor stores energy in the form of charge.
+Capacitors and inductors are linear circuit elements that can store electrical energy. The ideal capacitor stores energy in the form of \textbf{charge}.
 
 \begin{align} \label{eq_ELEC2004_capacitance}
   C &= \frac{\epsilon A}{d}
@@ -83,7 +84,8 @@ In DC, a capacitor is effectively an open circuit; when a steady voltage is appl
 \begin{align}
   i(t) &= \frac{dq(t)}{dt} = C \frac{dv(t)}{dt}
 \end{align}
-
+\textcolor{green}{KEY TAKEAWAY: Change in voltage induces a current because there are charges moving. This electrical energy is stored in ``capacitance'' in the form of an electric field.}\\
+\\
 Energy storage in capacitors is calculated by integrating the instantaneous power $P(t)$. Thus,
 \begin{align}
   P(t) &= v(t)i(t) = Cv(t)\frac{dv(t)}{dt}
@@ -95,13 +97,58 @@ Integrating the instanteous power:
 
 Capacitors can be combined in series and in parallel to yield a single equivalent capacitance. Note: the behaviour of equivalent capacitance is the opposite of resistors. Series:
 \begin{align}
-  C_{EQ} &= \frac{1}{\frac{1}{C_1} + \frac{1}{C_1} + \frac{1}{C_1} ...}
+  C_{EQ} &= \frac{1}{\frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} ...}
 \end{align}
 Parallel:
 \begin{align}
   C_{EQ} &= C_1 + C_2 + C_3 ...
 \end{align}
 
+\textsc{\large Inductors}\\
+The ideal inductor stores energy in an \textbf{induced magnetic field}.
+
+\begin{align}
+  \phi &= LI
+\end{align}
+Where:
+\begin{itemize}
+  \item $\phi$ = induced magnetic flux
+  \item L = inductance in Henrys ($H$)
+  \item I = applied current ($A$)
+\end{itemize}
+
+In DC, an inductor is effectively a short circuit (i.e. a wire with no resistance). \textcolor{red}{When the current changes, the induced field also changes.} Thus,
+
+\begin{align}
+  v(t) &= \frac{d\phi(t)}{dt} = L \frac{di(t)}{dt}
+\end{align}
+
+\textcolor{green}{KEY TAKEAWAY: The rate of change in magnetic flux induces a voltage. Thus, alternating current (AC) induces a change in magnetic field and thus produces a voltage. Inductance is the tendency of an electrical conductor to oppose a change in the electric current flowing through it.}\\
+\\
+Energy storage in inductors is calculated by integrating the instantaneous power $P(t)$. Thus,
+\begin{align}
+  P(t) &= v(t)i(t) = Li(t)\frac{di(t)}{dt}
+\end{align}
+Integrating the instanteous power:
+\begin{align}
+  W(t) = \frac{1}{2}Li^2(t)
+\end{align}
+
+Inductors can be combined in series and in parallel to yield a single equivalent inductance. Note: the behaviour of equivalent inductance is the same as resistors. Series:
+\begin{align}
+  L_{EQ} &= L_1 + L_2 + L_3 ...
+\end{align}
+Parallel:
+\begin{align}
+  L_{EQ} &= \frac{1}{\frac{1}{L_1} + \frac{1}{L_2} + \frac{1}{L_3} ...}
+\end{align}
+
+Other topics found:
+\begin{itemize}
+  \item Solving RC Circuits & Forced responses & Transient analysis
+  \item Approaches to solve circuits
+  \item Class exercises
+\end{itemize}
 \clearpage
 
 \subsection{ELEC3100 - Advanced Electrical Theory}
