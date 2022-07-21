@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1658304035 "main.tex" "main.pdf" "main" 1658304037
+["pdflatex"] 1658397749 "main.tex" "main.pdf" "main" 1658397751
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1657702654 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1657703482 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1657703146 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -159,13 +159,14 @@
   "c:/texlive/2022/texmf.cnf" 1657706901 713 e69b156964470283e0530f5060668171 ""
   "chapters/00_titlePage.tex" 1657961655 3197 58ad97aa15d603bfe94c07ebfe38d357 ""
   "chapters/01_tableOfContents.tex" 1657959730 79 6bff783849c08b717ad843ef24c204a8 ""
-  "chapters/02_UqSubjects.tex" 1658304032 7720 ffeb0816eb9e375a7236b4bf27ddc8b4 ""
-  "includes.tex" 1658017487 1809 8d0d3781cd586f98bde5c1593d5e0ee2 ""
-  "main.aux" 1658304037 2794 4a6e82f68f02a92c0c4797e4c69d00d5 "pdflatex"
+  "chapters/02_UqSubjects.tex" 1658397746 9231 47ced2aade85877f57aa44922dc1d937 ""
+  "images///02_UqSubjects/kirchhoffs.png" 1658396892 115481 84d706a72a10820461a80b09b6f97eb4 ""
+  "includes.tex" 1658397187 1857 1b60e601b2bdbb4365fcc99d5df4c35b ""
+  "main.aux" 1658397750 2944 cae55f5bf452929d0a921bb3894ed080 "pdflatex"
   "main.lof" 0 -1 0 "pdflatex"
   "main.lot" 0 -1 0 "pdflatex"
-  "main.tex" 1658017086 311 3ce783c6b7d04237ec8023cb0e10fe1e ""
-  "main.toc" 1658304037 1780 560170e1732fae6cc1517b5450e320df "pdflatex"
+  "main.tex" 1658397242 337 06edeedc16f3c9d592a9fbb738cd33cc ""
+  "main.toc" 1658397750 1889 91354a575661da53b591ce13f0727930 "pdflatex"
   (generated)
   "main.aux"
   "main.lof"

@@ -145,10 +145,31 @@ Parallel:
 
 Other topics found:
 \begin{itemize}
-  \item Solving RC Circuits & Forced responses & Transient analysis
+  \item Solving RC Circuits \& Forced responses \& Transient analysis
   \item Approaches to solve circuits
   \item Class exercises
 \end{itemize}
+\clearpage
+
+\subsubsection{LEC02: Nodal \& Mesh Analysis and Network Theorems}
+\textsc{\large The Basics}\\
+These are the fundamental electrical basics:
+\begin{itemize}
+  \item \textcolor{green}{$V = IR$ (Ohm's Law)}
+  \item \textcolor{green}{$P = VI = \frac{V^2}{R} = I^2R$}
+  \item \textcolor{green}{Kirchhoff's current law (KCL): Sum of currents into a node = 0}
+  \item \textcolor{green}{Kirchhoff's voltage law (KVL): Sum of voltages around a loop = 0}
+  \item \textcolor{green}{Series and parallel circuits (voltage and current dividers)}
+\end{itemize}
+
+\textsc{\large Mesh and Node Analysis}\\
+\begin{itemize}
+  \item Nodal analysis: Set voltages at each node as the unknown variables, apply KCL. Note: Currents going into the node are positive, and currents going out of the node are negative. Use KCL when the source is a current source.
+  \item Mesh analysis: set the current through each branch as the unknown variables, apply KVL;  Note: choose a direction for a loop and stick to that direction for all loops. Voltages going from negative to positive (e.g. Voltage Sources) are positive and voltages going from positive to negative (e.g. resistors) are impedances. Use KVL when the source is a voltage source.
+\end{itemize}
+\includegraphics[width=\textwidth]{/02_UqSubjects/kirchhoffs}
+
+
 \clearpage
 
 \subsection{ELEC3100 - Advanced Electrical Theory}
