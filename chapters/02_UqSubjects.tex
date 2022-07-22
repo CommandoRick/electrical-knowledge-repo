@@ -160,14 +160,62 @@ These are the fundamental electrical basics:
   \item \textcolor{green}{Kirchhoff's current law (KCL): Sum of currents into a node = 0}
   \item \textcolor{green}{Kirchhoff's voltage law (KVL): Sum of voltages around a loop = 0}
   \item \textcolor{green}{Series and parallel circuits (voltage and current dividers)}
+  \item \textcolor{green}{$R_{series} = R_1 + R_2 + R_3$; $R_{parallel} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}}$}
 \end{itemize}
 
-\textsc{\large Mesh and Node Analysis}\\
+\textsc{\large Node and Mesh Analysis}\\
+Note: For a network with $n$ nodes, both methods will result in $n$ independent equations, with $n$ unknown variables.
 \begin{itemize}
-  \item Nodal analysis: Set voltages at each node as the unknown variables, apply KCL. Note: Currents going into the node are positive, and currents going out of the node are negative. Use KCL when the source is a current source.
-  \item Mesh analysis: set the current through each branch as the unknown variables, apply KVL;  Note: choose a direction for a loop and stick to that direction for all loops. Voltages going from negative to positive (e.g. Voltage Sources) are positive and voltages going from positive to negative (e.g. resistors) are impedances. Use KVL when the source is a voltage source.
+  \item Nodal analysis: Set voltages at each node as the unknown variables, apply KCL. Note: Currents going into the node are positive, and currents going out of the node are negative. \textcolor{red}{Use KCL when the source is a current source; typically.}
+  \item Mesh analysis: set the current through each branch as the unknown variables, apply KVL;  Note: choose a direction for a loop and stick to that direction for all loops. Voltages going from negative to positive (e.g. Voltage Sources) are positive and voltages going from positive to negative (e.g. resistors) are impedances. \textcolor{red}{Use KVL when the source is a voltage source; typically.}
 \end{itemize}
+
+\textsc{\large Procedure: Nodal (KCL)}
+The below steps for the method to use Nodal Analysis:
+\begin{enumerate}
+  \item Label all circuit parameters - identify the unknown parameters (voltages and currents).
+  \item Identify all essential nodes.
+  \item Select a node as the reference node (ground node). Assign it a potential of 0 volts. All other voltages are measured with respect to the reference node.
+  \item Label the voltages at all other nodes.
+  \item Apply KCL at each node and express currents in terms of node voltages.
+  \item Solve the resulting equations for node voltages.
+  \item WHAT HAPPENS IF THERE ARE V AND I SOURCES?  We may need to define a `super-node' (this is where a voltage source connects two nodes; thus, like a node, Current in = Current out) See Figure \ref{fig_supernode_image}
+\end{enumerate}
+
+\begin{figure}
+  \includegraphics[width=\textwidth]{/02_UqSubjects/supernode}
+  \caption{Snapshot - Super-Nodes in Circuit Analysis (Nodal)}
+  \label{fig_supernode_image}
+\end{figure}
+
+\textsc{\large Procedure: Mesh (KVL)}
+The below steps for the method to use Mesh Analysis:
+\begin{enumerate}
+  \item Label all circuit parameters and identify unknown parameters (voltages and currents).
+  \item Identify all meshes of the circuit.
+  \item Assign mesh currents and label polarities.
+  \item Apply KVL at each mesh and express voltages in terms of the mesh currents.
+  \item Solve the resulting simultaneous equations for the mesh currents.
+  \item Now that the mesh currents are known, the voltages may be obtained from Ohm's law.
+  \item WHAT HAPPENS IF THERE ARE V AND I SOURCES?  We may need to define a `super-mesh' (this is where the current is found common to both meshes) See Figure \ref{fig_supermesh_image}
+\end{enumerate}
+
+\begin{figure}
+  \includegraphics[width=\textwidth]{/02_UqSubjects/supermesh}
+  \caption{Snapshot - Super-Mesh in Circuit Analysis (Mesh)}
+  \label{fig_supermesh_image}
+\end{figure}
+
 \includegraphics[width=\textwidth]{/02_UqSubjects/kirchhoffs}
+
+Superposition (pg 30)
+
+Other topics found:
+\begin{itemize}
+  \item Definitions: Ideal Sources (Voltage, Current), Independent vs Dependent Sources
+  \item Approaches to solve circuits
+  \item Class exercises
+\end{itemize}
 
 
 \clearpage

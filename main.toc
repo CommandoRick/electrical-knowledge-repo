@@ -11,12 +11,12 @@
 \contentsline {subsection}{\numberline {1.10}ELEC2004 - Electronics \& Circuits Pt.2}{12}{}%
 \contentsline {subsubsection}{\numberline {1.10.1}LEC01: Capacitors and Inductors, RL and RC Circuits}{12}{}%
 \contentsline {subsubsection}{\numberline {1.10.2}LEC02: Nodal \& Mesh Analysis and Network Theorems}{14}{}%
-\contentsline {subsection}{\numberline {1.11}ELEC3100 - Advanced Electrical Theory}{16}{}%
-\contentsline {subsection}{\numberline {1.12}ELEC3300 - Motors \& Electrical Energy}{17}{}%
-\contentsline {subsection}{\numberline {1.13}ELEC3400 - Amplifiers \& Electronics}{18}{}%
-\contentsline {subsection}{\numberline {1.14}ELEC4300 - Power System Analysis}{19}{}%
-\contentsline {subsection}{\numberline {1.15}ELEC4302 - Power System Protection}{20}{}%
-\contentsline {subsection}{\numberline {1.16}ELEC4620 - Signal Processing}{21}{}%
-\contentsline {subsection}{\numberline {1.17}ELEC4630 - Image Processing}{22}{}%
-\contentsline {subsection}{\numberline {1.18}ENGG4800 - Project Management}{23}{}%
-\contentsline {subsection}{\numberline {1.19}METR4201 - Control System Analysis}{24}{}%
+\contentsline {subsection}{\numberline {1.11}ELEC3100 - Advanced Electrical Theory}{18}{}%
+\contentsline {subsection}{\numberline {1.12}ELEC3300 - Motors \& Electrical Energy}{19}{}%
+\contentsline {subsection}{\numberline {1.13}ELEC3400 - Amplifiers \& Electronics}{20}{}%
+\contentsline {subsection}{\numberline {1.14}ELEC4300 - Power System Analysis}{21}{}%
+\contentsline {subsection}{\numberline {1.15}ELEC4302 - Power System Protection}{22}{}%
+\contentsline {subsection}{\numberline {1.16}ELEC4620 - Signal Processing}{23}{}%
+\contentsline {subsection}{\numberline {1.17}ELEC4630 - Image Processing}{24}{}%
+\contentsline {subsection}{\numberline {1.18}ENGG4800 - Project Management}{25}{}%
+\contentsline {subsection}{\numberline {1.19}METR4201 - Control System Analysis}{26}{}%
