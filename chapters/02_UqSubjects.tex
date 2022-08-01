@@ -161,6 +161,8 @@ These are the fundamental electrical basics:
   \item \textcolor{green}{Kirchhoff's voltage law (KVL): Sum of voltages around a loop = 0}
   \item \textcolor{green}{Series and parallel circuits (voltage and current dividers)}
   \item \textcolor{green}{$R_{series} = R_1 + R_2 + R_3$; $R_{parallel} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}}$}
+  \item \textcolor{green}{Voltage Divider: $V_{out} = V_{in}\frac{R_x}{R_{total}}$ where $V_{out}$ is the voltage you want; $V_{in}$ is the source voltage; $R_x$ is the resistor you will find $V_{out}$; and $R_{total}$ is the total resistance}
+  \item \textcolor{green}{Current Divider: $I_{n} = I_{in}\frac{R_{eq}}{R_{n}}$ where $I_{n}$ is the current you want; $I_{in}$ is the source current; $R_n$ is the resistor in which the desired current flows through $I_{n}$; and $R_{eq}$ is the equivalent resistance of the resistors}
 \end{itemize}
 
 \textsc{\large Node and Mesh Analysis}\\
@@ -188,7 +190,7 @@ The below steps for the method to use Nodal Analysis:
   \label{fig_supernode_image}
 \end{figure}
 
-\textsc{\large Procedure: Mesh (KVL)}
+\textsc{\large Procedure: Mesh (KVL)}\\
 The below steps for the method to use Mesh Analysis:
 \begin{enumerate}
   \item Label all circuit parameters and identify unknown parameters (voltages and currents).
@@ -208,12 +210,39 @@ The below steps for the method to use Mesh Analysis:
 
 \includegraphics[width=\textwidth]{/02_UqSubjects/kirchhoffs}
 
-Superposition (pg 30)
+\textsc{\large Superposition}\\
+Applies to all linear systems:
+\begin{itemize}
+  \item allows each source in a circuit can be treated independently
+  \item and then, complete response of a circuit is calculated by adding the impact of each independent source.
+  \item \textcolor{red}{One active source. Set all other sources to zero.}
+  \item \textcolor{red}{Replace current source with an open circuit (0 amps flowing)}
+  \item \textcolor{red}{Replace voltage source with a short circuit (0 volts across source)}
+  \item calculate the voltage/current at point of interest
+  \item repeat for each source in the circuits
+  \item add the voltage/current components from each source at the point of interest
+  \item \textcolor{red}{REMEMBER TO CONSISTENTLY FOLLOW THE SIGN CONVENTION!}
+\end{itemize}
+
+\textsc{\large Linear Circuit Theorems}\\
+These below theorems are used in practical network calcalations... i.e in ELEC4300 and ELEC4302 for fault current levels; for the Positive, Negative and Zero Sequence equations.
+\begin{itemize}
+  \item \textbf{Thevenin's theorem} states that any resistive circuit can be replaced by a voltage source and a series resistance; and can be extended to circuits with L and C. It's characterised by: open-circuit voltage $v_{oc}$, short-circuit current $i_{sc}$ and series resistance $R_t$; where $v_{oc} = v_s$ [voltage open circuit is now the thevenin voltage source], $R_t = R_s$ [equivalent resistance is now the thevenin resistance], and $i_{sc} \frac{v_s}{R_s}$ [thevenin current calculated once you have gotten the other two variables].
+  \item \textbf{Norton transformation} means that any circuit may be modelled by a current source with a parallel resistance; It's characterised by: short-circuit current $i_{sc}$, open-circuit voltage $v_{oc}$ and parallel resistance $R_p$; where $i_{sc} = i_s$ [current short circuit is now the thevenin current source], $v_{oc} = i_s R_p$ [open-circuit voltage voltage is calculated once you have gotten the other two variables].
+\end{itemize}
+
+Thevenin and Norton can be transformed to each other (Figure \ref{fig_theveninSourceTrans}):
+\begin{figure}
+  \includegraphics[width=\textwidth]{/02_UqSubjects/thevSourceTransformation}
+  \caption{Snapshot - Thevenin and Norton Source Transformation (Mesh)}
+  \label{fig_theveninSourceTrans}
+\end{figure}
 
 Other topics found:
 \begin{itemize}
   \item Definitions: Ideal Sources (Voltage, Current), Independent vs Dependent Sources
   \item Approaches to solve circuits
+  \item Maximum power transfer
   \item Class exercises
 \end{itemize}
 
