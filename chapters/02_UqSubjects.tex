@@ -234,7 +234,7 @@ These below theorems are used in practical network calcalations... i.e in ELEC43
 Thevenin and Norton can be transformed to each other (Figure \ref{fig_theveninSourceTrans}):
 \begin{figure}
   \includegraphics[width=\textwidth]{/02_UqSubjects/thevSourceTransformation}
-  \caption{Snapshot - Thevenin and Norton Source Transformation (Mesh)}
+  \caption{Snapshot - Thevenin and Norton Source Transformation}
   \label{fig_theveninSourceTrans}
 \end{figure}
 
@@ -245,7 +245,76 @@ Other topics found:
   \item Maximum power transfer
   \item Class exercises
 \end{itemize}
+\clearpage
 
+\subsubsection{LEC03: Operational Amplifiers (Op Amps)}
+Other topics found:
+\begin{itemize}
+  \item Solving op amps
+  \item Inverting, summing, non-inverting amplifier
+  \item Voltage follower
+  \item Differential amplifier
+  \item Virtual earth
+  \item Amplifier limitations
+  \item Class exercises
+  \item MUCH MORE!!!
+\end{itemize}
+
+\subsubsection{LEC05: Integrators and Differentiators}
+Other topics found:
+\begin{itemize}
+  \item Control systems engineering - Integrators and Differentiators
+  \item etc
+\end{itemize}
+\clearpage
+
+\subsubsection{LEC06: RLC Circuits}
+\textsc{\large Parallel RLC}\\
+RLCs means that we have to solve second order differential equations (ODEs). See Figure \ref{fig_parallelRLC}
+\begin{figure}
+  \includegraphics[width=\textwidth]{/02_UqSubjects/parallelRLC}
+  \caption{Snapshot - Parallel RLC Circuit}
+  \label{fig_parallelRLC}
+\end{figure}
+
+Assume: $v = Ae^{st}$, thus using Laplace transforms to solve the differential equation: $s^2 + \frac{s}{RC} + \frac{1}{LC}$. Solve using the quadratic formula.
+
+Thus, the natural response of parallel RLC:
+\begin{align}
+  v &= A_1 e^{s_1 t} + A_2 e^{s_2 t} \\
+  s_1 &= -\frac{1}{2RC} + \sqrt{(\frac{1}{2RC})^2 - \frac{1}{LC}} \\
+  s_2 &= -\frac{1}{2RC} - \sqrt{(\frac{1}{2RC})^2 - \frac{1}{LC}}
+\end{align}
+We define damping coefficient and undamped natural frequency as:
+\begin{align}
+  \alpha &= \frac{1}{2RC} \\
+  \omega &= \frac{1}{\sqrt{LC}}
+\end{align}
+
+Determining the damping, we need to find the roots of the characteristic equation:
+\begin{align}
+  s_1 &= -\alpha + \sqrt{\alpha^2 - \omega_0^2} \\
+  s_2 &= -\alpha - \sqrt{\alpha^2 - \omega_0^2}
+\end{align}
+Thus, by defining $\zeta = \frac{\alpha}{\omega_0}$ (damping ratio), there are three cases:
+\begin{enumerate}
+  \item Overdamped case ($\zeta > 1$): $s_1 > s_2$ are both real.
+  \item Critically damped case ($\zeta = 1$): $s_1 = s_2 = -\alpha = -\omega_0$.
+  \item Underdamped case ($\zeta < 1$): $s_1$ and $s_2$ are complex.
+\end{enumerate}
+
+\textsc{\large Series RLC}\\
+\begin{figure}
+  \includegraphics[width=\textwidth]{/02_UqSubjects/seriesRLC}
+  \caption{Snapshot - Series RLC Circuit}
+  \label{fig_seriesRLC}
+\end{figure}
+
+Other topics found:
+\begin{itemize}
+  \item Class exercises
+  \item d
+\end{itemize}
 
 \clearpage
 
