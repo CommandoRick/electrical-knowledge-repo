@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.13)  2 AUG 2022 07:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.13)  3 AUG 2022 19:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,14 +953,10 @@ t line 275.
 File: ./images///02_UqSubjects/seriesRLC.png Graphic file (type png)
 <use ./images///02_UqSubjects/seriesRLC.png>
 Package pdftex.def Info: ./images///02_UqSubjects/seriesRLC.png  used on input 
-line 308.
+line 339.
 (pdftex.def)             Requested size: 505.89pt x 357.87248pt.
- [21 <./images///02_UqSubjects/seriesRLC.png>]
-[22
-
-] [23
-
-] [24
+ [21] [22 <./images///02_UqSubjects/seriesRLC.png>]
+[23] [24
 
 ] [25
 
@@ -974,34 +970,38 @@ line 308.
 
 ] [30
 
-] Excluding 'comment' comment.)
-(./main.aux) ) 
+] [31
+
+] [32
+
+] Excluding 'comment' comment.) (./main.aux) ) 
 Here is how much of TeX's memory you used:
  19091 strings out of 478024
  373211 string characters out of 5842701
- 655796 words of memory out of 5000000
+ 659797 words of memory out of 5000000
  37158 multiletter control sequences out of 15000+600000
  474673 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,92p,617b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1
-.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/
-texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2
-022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive
-/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2022/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
-public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (31 pages, 636884 bytes).
+{c:/texlive/2022/texmf-dist/fonts
+/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (33 pages, 648888 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
+ 203 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

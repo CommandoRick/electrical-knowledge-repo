@@ -14,12 +14,12 @@
 \contentsline {subsubsection}{\numberline {1.10.3}LEC03: Operational Amplifiers (Op Amps)}{19}{}%
 \contentsline {subsubsection}{\numberline {1.10.4}LEC05: Integrators and Differentiators}{19}{}%
 \contentsline {subsubsection}{\numberline {1.10.5}LEC06: RLC Circuits}{20}{}%
-\contentsline {subsection}{\numberline {1.11}ELEC3100 - Advanced Electrical Theory}{22}{}%
-\contentsline {subsection}{\numberline {1.12}ELEC3300 - Motors \& Electrical Energy}{23}{}%
-\contentsline {subsection}{\numberline {1.13}ELEC3400 - Amplifiers \& Electronics}{24}{}%
-\contentsline {subsection}{\numberline {1.14}ELEC4300 - Power System Analysis}{25}{}%
-\contentsline {subsection}{\numberline {1.15}ELEC4302 - Power System Protection}{26}{}%
-\contentsline {subsection}{\numberline {1.16}ELEC4620 - Signal Processing}{27}{}%
-\contentsline {subsection}{\numberline {1.17}ELEC4630 - Image Processing}{28}{}%
-\contentsline {subsection}{\numberline {1.18}ENGG4800 - Project Management}{29}{}%
-\contentsline {subsection}{\numberline {1.19}METR4201 - Control System Analysis}{30}{}%
+\contentsline {subsection}{\numberline {1.11}ELEC3100 - Advanced Electrical Theory}{24}{}%
+\contentsline {subsection}{\numberline {1.12}ELEC3300 - Motors \& Electrical Energy}{25}{}%
+\contentsline {subsection}{\numberline {1.13}ELEC3400 - Amplifiers \& Electronics}{26}{}%
+\contentsline {subsection}{\numberline {1.14}ELEC4300 - Power System Analysis}{27}{}%
+\contentsline {subsection}{\numberline {1.15}ELEC4302 - Power System Protection}{28}{}%
+\contentsline {subsection}{\numberline {1.16}ELEC4620 - Signal Processing}{29}{}%
+\contentsline {subsection}{\numberline {1.17}ELEC4630 - Image Processing}{30}{}%
+\contentsline {subsection}{\numberline {1.18}ENGG4800 - Project Management}{31}{}%
+\contentsline {subsection}{\numberline {1.19}METR4201 - Control System Analysis}{32}{}%

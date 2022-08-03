@@ -303,12 +303,60 @@ Thus, by defining $\zeta = \frac{\alpha}{\omega_0}$ (damping ratio), there are t
   \item Underdamped case ($\zeta < 1$): $s_1$ and $s_2$ are complex.
 \end{enumerate}
 
+Over-damped case $\alpha^2 > \omega_0^2$:
+\begin{align}
+  v(t) &= A_1 e^{s_1t} + A_2 e^{s_2t}
+\end{align}
+$A_1$ and $A_2$ are determined by solving the following:
+\begin{align}
+  v(0^+) &= A_1 + A_2 \\
+  \frac{dv(0^+)}{dt} &= \frac{i_C(0^+)}{C} = s_1 A_1 + s_2 A_2
+\end{align}
+
+Critically damped case $\alpha^2 = \omega_0^2$:
+\begin{align}
+  v(t) &= D_1 t e^{-\alpha t} + D_2 t e^{-\alpha t}
+\end{align}
+$D_1$ and $D_2$ are determined by solving the following:
+\begin{align}
+  v(0^+) = D_2
+  \frac{dv(0^+)}{dt} &= \frac{i_C(0^+)}{C} = D_1 - \alpha D_2
+\end{align}
+
+Under-damped case $\alpha^2 < \omega_0^2$:
+\begin{align}
+  v(t) &= B_1 e^{-\alpha t} cos (\omega_d t) + B_2 e^{-\alpha t} sin (\omega_d t)
+\end{align}
+where $\omega_d = \sqrt{\omega_0^2 - \alpha^2}$ denotes damped natural frequency.
+$B_1$ and $B_2$ are determined by solving the following:
+\begin{align}
+  v(0^+) &= B_1 \\
+  \frac{dv(0^+)}{dt} &= \frac{i_C(0^+)}{C} = -\alpha_1 B_1 + \omega_d B_2
+\end{align}
+
 \textsc{\large Series RLC}\\
 \begin{figure}
   \includegraphics[width=\textwidth]{/02_UqSubjects/seriesRLC}
   \caption{Snapshot - Series RLC Circuit}
   \label{fig_seriesRLC}
 \end{figure}
+
+Thus, the resulting characteristic equation is $s^2 + \frac{R}{L}s + \frac{1}{LC} = 0$. The roots are:
+\begin{align}
+  s_{1,2} &= -\frac{R}{2L} \pm \sqrt{(\frac{R}{2L})^2 - \frac{1}{LC}} \\
+  s_{1,2} &= -\alpha \pm \sqrt{\alpha^2 - \omega_0^2}
+\end{align}
+
+We define damping coefficient and undamped natural frequency as (for Series RLC):
+\begin{align}
+  \alpha &= \frac{R}{2L} \\
+  \omega &= \frac{1}{\sqrt{LC}}
+\end{align}
+
+Thus, there are three cases:
+\begin{enumerate}
+  \item
+\end{enumerate}
 
 Other topics found:
 \begin{itemize}
