@@ -63,6 +63,7 @@ Using Latex in Atom
   - Latex
   - latextools
   - pdf-view
+- Build only on the "main.tex"
 
 Useful shortcuts in Atom:
 - Display all keyboard shortcuts: Ctrl + Shift + P
