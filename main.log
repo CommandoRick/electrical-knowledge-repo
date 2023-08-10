@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.13)  10 AUG 2023 18:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.13)  10 AUG 2023 18:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,11 +860,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./chapters/01
 _tableOfContents.tex
-(./main.toc)
+(./main.toc [1])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [1] [2] (./main.lof)
+ [2] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -893,72 +893,72 @@ _tableOfContents.tex
 
 ] [12
 
+] [13
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 86--90
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
 
-[13
+[14
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
+Underfull \hbox (badness 10000) in paragraph at lines 129--132
 
  []
 
-[14]
-<./images///02_UqSubjects/supernode.png, id=64, 641.39626pt x 443.40656pt>
+[15]
+<./images///02_UqSubjects/supernode.png, id=67, 641.39626pt x 443.40656pt>
 File: ./images///02_UqSubjects/supernode.png Graphic file (type png)
 <use ./images///02_UqSubjects/supernode.png>
 Package pdftex.def Info: ./images///02_UqSubjects/supernode.png  used on input 
-line 188.
+line 191.
 (pdftex.def)             Requested size: 505.89pt x 349.7393pt.
- [15
+ [16
 
-] [16 <./images///02_UqSubjects/supernode.png>]
-<./images///02_UqSubjects/supermesh.png, id=74, 616.55344pt x 476.53032pt>
+] [17 <./images///02_UqSubjects/supernode.png>]
+<./images///02_UqSubjects/supermesh.png, id=77, 616.55344pt x 476.53032pt>
 File: ./images///02_UqSubjects/supermesh.png Graphic file (type png)
 <use ./images///02_UqSubjects/supermesh.png>
 Package pdftex.def Info: ./images///02_UqSubjects/supermesh.png  used on input 
-line 206.
+line 209.
 (pdftex.def)             Requested size: 505.89pt x 391.01189pt.
-<./images///02_UqSubjects/kirchhoffs.png, id=75, 602.25pt x 451.6875pt>
+<./images///02_UqSubjects/kirchhoffs.png, id=78, 602.25pt x 451.6875pt>
 File: ./images///02_UqSubjects/kirchhoffs.png Graphic file (type png)
 <use ./images///02_UqSubjects/kirchhoffs.png>
 Package pdftex.def Info: ./images///02_UqSubjects/kirchhoffs.png  used on input
- line 211.
+ line 214.
 (pdftex.def)             Requested size: 505.89pt x 379.43558pt.
- [17 <./images///02_UqSubjects/supermesh.png>] [18 <./images///02_UqSubjects/ki
+ [18 <./images///02_UqSubjects/supermesh.png>] [19 <./images///02_UqSubjects/ki
 rchhoffs.png>]
-<./images///02_UqSubjects/thevSourceTransformation.png, id=85, 604.50844pt x 41
+<./images///02_UqSubjects/thevSourceTransformation.png, id=88, 604.50844pt x 41
 8.56375pt>
 File: ./images///02_UqSubjects/thevSourceTransformation.png Graphic file (type 
 png)
 <use ./images///02_UqSubjects/thevSourceTransformation.png>
 Package pdftex.def Info: ./images///02_UqSubjects/thevSourceTransformation.png 
- used on input line 236.
+ used on input line 239.
 (pdftex.def)             Requested size: 505.89pt x 350.28186pt.
- [19 <./images///02_UqSubjects/thevSourceTransformation.png>] [20
+ [20 <./images///02_UqSubjects/thevSourceTransformation.png>] [21
 
 ]
-<./images///02_UqSubjects/parallelRLC.png, id=93, 471.26062pt x 332.74312pt>
+<./images///02_UqSubjects/parallelRLC.png, id=96, 471.26062pt x 332.74312pt>
 File: ./images///02_UqSubjects/parallelRLC.png Graphic file (type png)
 <use ./images///02_UqSubjects/parallelRLC.png>
 Package pdftex.def Info: ./images///02_UqSubjects/parallelRLC.png  used on inpu
-t line 275.
+t line 278.
 (pdftex.def)             Requested size: 505.89pt x 357.19937pt.
- [21
+ [22
 
  <./images///02_UqSubjects/parallelRLC.png>]
-<./images///02_UqSubjects/seriesRLC.png, id=100, 437.38406pt x 309.40594pt>
+<./images///02_UqSubjects/seriesRLC.png, id=103, 437.38406pt x 309.40594pt>
 File: ./images///02_UqSubjects/seriesRLC.png Graphic file (type png)
 <use ./images///02_UqSubjects/seriesRLC.png>
 Package pdftex.def Info: ./images///02_UqSubjects/seriesRLC.png  used on input 
-line 339.
+line 342.
 (pdftex.def)             Requested size: 505.89pt x 357.87248pt.
- [22] [23 <./images///02_UqSubjects/seriesRLC.png>]
-[24] [25
-
-] [26
+ [23] [24 <./images///02_UqSubjects/seriesRLC.png>]
+[25] [26
 
 ] [27
 
@@ -973,6 +973,8 @@ line 339.
 ] [32
 
 ] [33
+
+] [34
 
 ] Excluding 'comment' comment.) (./main.aux) ) 
 Here is how much of TeX's memory you used:
@@ -998,10 +1000,10 @@ amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
 ><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texl
 ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (34 pages, 650129 bytes).
+Output written on main.pdf (35 pages, 650792 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 209 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -47,6 +47,11 @@ d
 [Link to section in document](#Hello)
 
 ---
+To commit in atom
+- Once changes are made, save your changes, and stage them.
+- Then put in the commit message and commit.
+
+
 Using Markdown in Atom
 - To compile, keyboard shortcut:  Ctrl + Shift + M
 - packages to download for Markdown:

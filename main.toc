@@ -7,20 +7,21 @@
 \contentsline {subsection}{\numberline {1.6}MATH2001 - Advanced Calculus}{9}{}%
 \contentsline {subsection}{\numberline {1.7}MATH2010 - Partial Differential Equations}{10}{}%
 \contentsline {subsection}{\numberline {1.8}STAT2202 - Advanced Statistics}{11}{}%
-\contentsline {subsection}{\numberline {1.9}ELEC2003 - Electronics \& Circuits Pt.1}{12}{}%
-\contentsline {subsection}{\numberline {1.10}ELEC2004 - Electronics \& Circuits Pt.2}{13}{}%
-\contentsline {subsubsection}{\numberline {1.10.1}LEC01: Capacitors and Inductors, RL and RC Circuits}{13}{}%
-\contentsline {subsubsection}{\numberline {1.10.2}LEC02: Nodal \& Mesh Analysis and Network Theorems}{15}{}%
-\contentsline {subsubsection}{\numberline {1.10.3}LEC03: Operational Amplifiers (Op Amps)}{20}{}%
-\contentsline {subsubsection}{\numberline {1.10.4}LEC05: Integrators and Differentiators}{20}{}%
-\contentsline {subsubsection}{\numberline {1.10.5}LEC06: RLC Circuits}{21}{}%
-\contentsline {subsubsection}{\numberline {1.10.6}LEC07: Phasor Analysis}{24}{}%
-\contentsline {subsection}{\numberline {1.11}ELEC3100 - Advanced Electrical Theory}{25}{}%
-\contentsline {subsection}{\numberline {1.12}ELEC3300 - Motors \& Electrical Energy}{26}{}%
-\contentsline {subsection}{\numberline {1.13}ELEC3400 - Amplifiers \& Electronics}{27}{}%
-\contentsline {subsection}{\numberline {1.14}ELEC4300 - Power System Analysis}{28}{}%
-\contentsline {subsection}{\numberline {1.15}ELEC4302 - Power System Protection}{29}{}%
-\contentsline {subsection}{\numberline {1.16}ELEC4620 - Signal Processing}{30}{}%
-\contentsline {subsection}{\numberline {1.17}ELEC4630 - Image Processing}{31}{}%
-\contentsline {subsection}{\numberline {1.18}ENGG4800 - Project Management}{32}{}%
-\contentsline {subsection}{\numberline {1.19}METR4201 - Control System Analysis}{33}{}%
+\contentsline {subsection}{\numberline {1.9}ELEC1300 - Electronics Basics}{12}{}%
+\contentsline {subsection}{\numberline {1.10}ELEC2003 - Electronics \& Circuits Pt.1}{13}{}%
+\contentsline {subsection}{\numberline {1.11}ELEC2004 - Electronics \& Circuits Pt.2}{14}{}%
+\contentsline {subsubsection}{\numberline {1.11.1}LEC01: Capacitors and Inductors, RL and RC Circuits}{14}{}%
+\contentsline {subsubsection}{\numberline {1.11.2}LEC02: Nodal \& Mesh Analysis and Network Theorems}{16}{}%
+\contentsline {subsubsection}{\numberline {1.11.3}LEC03: Operational Amplifiers (Op Amps)}{21}{}%
+\contentsline {subsubsection}{\numberline {1.11.4}LEC05: Integrators and Differentiators}{21}{}%
+\contentsline {subsubsection}{\numberline {1.11.5}LEC06: RLC Circuits}{22}{}%
+\contentsline {subsubsection}{\numberline {1.11.6}LEC07: Phasor Analysis}{25}{}%
+\contentsline {subsection}{\numberline {1.12}ELEC3100 - Advanced Electrical Theory}{26}{}%
+\contentsline {subsection}{\numberline {1.13}ELEC3300 - Motors \& Electrical Energy}{27}{}%
+\contentsline {subsection}{\numberline {1.14}ELEC3400 - Amplifiers \& Electronics}{28}{}%
+\contentsline {subsection}{\numberline {1.15}ELEC4300 - Power System Analysis}{29}{}%
+\contentsline {subsection}{\numberline {1.16}ELEC4302 - Power System Protection}{30}{}%
+\contentsline {subsection}{\numberline {1.17}ELEC4620 - Signal Processing}{31}{}%
+\contentsline {subsection}{\numberline {1.18}ELEC4630 - Image Processing}{32}{}%
+\contentsline {subsection}{\numberline {1.19}ENGG4800 - Project Management}{33}{}%
+\contentsline {subsection}{\numberline {1.20}METR4201 - Control System Analysis}{34}{}%
